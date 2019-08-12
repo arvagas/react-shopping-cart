@@ -1,10 +1,10 @@
-import React, { useContext } from 'react';
+import React, { useContext } from 'react'
 
 // Components
-import Product from './Product';
+import Product from './Product'
 
 // Contexts
-import { ProductContext } from './contexts/ProductContext'
+import { ProductContext } from '../contexts/ProductContext'
 
 const Products = () => {
 	const { products, addItem } = useContext(ProductContext)
@@ -19,7 +19,7 @@ const Products = () => {
 				/>
 			))}
 		</div>
-	);
-};
+	)
+}
 
-export default Products;
+export default Products
